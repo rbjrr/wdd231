@@ -1,0 +1,81 @@
+{
+    "areas_of_interest": [
+      {
+        "name": "Sankore Mosque",
+        "type": "Historical/Religious",
+        "description": "A 14th-century center of learning and part of the University of Timbuktu.",
+        "unesco_world_heritage": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sankore_Mosque_in_Timbuktu.jpg/960px-Sankore_Mosque_in_Timbuktu.jpg?20060228145412",
+        "image_credit": "Wikimedia Commons",
+        "image_path": "./images/discover/Sankore_Mosque.webp"
+      },
+      {
+        "name": "Djinguereber Mosque",
+        "type": "Historical/Religious",
+        "description": "Built in 1327 by Sultan Mansa Musa, a UNESCO World Heritage Site.",
+        "unesco_world_heritage": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Djinguereber_Mosque.jpg/500px-Djinguereber_Mosque.jpg?20230331153526",
+        "image_credit": "Wikimedia Commons",
+        "image_path": "./images/discover/djinguereber.webp"
+      },
+      {
+        "name": "Sidi Yahya Mosque",
+        "type": "Historical/Religious",
+        "description": "Completed in 1440, part of Timbuktu's UNESCO-listed mosques.",
+        "unesco_world_heritage": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tombouctou-Mosqu%C3%A9e_de_Sidi-Yahya_%28AOF%29.jpg/640px-Tombouctou-Mosqu%C3%A9e_de_Sidi-Yahya_%28AOF%29.jpg",
+        "image_credit": "Wikimedia Commons",
+        "image_path": "./images/discover/sidi_yahya.webp"
+      },
+      {
+        "name": "Ahmed Baba Institute",
+        "type": "Cultural/Educational",
+        "description": "Home to thousands of ancient manuscripts from Timbuktu's golden age.",
+        "unesco_world_heritage": false,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/CEDRHAB_Timbuktu.jpg/1920px-CEDRHAB_Timbuktu.jpg",
+        "image_credit": "Wikimedia Commons",
+        "image_path": "./images/discover/ahmed.webp"
+      },
+      {
+        "name": "Timbuktu Manuscripts",
+        "type": "Cultural",
+        "description": "Historic African and Islamic texts preserved in libraries.",
+        "unesco_world_heritage": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Timbuktu-manuscripts-astronomy-mathematics.jpg",
+        "image_credit": "Wikimedia Commons",
+        "image_path": "./images/discover/manuscripts.webp"
+      },
+      {
+        "name": "Timbuktu Market",
+        "type": "Cultural/Commercial",
+        "description": "Vibrant market reflecting Saharan trade traditions.",
+        "unesco_world_heritage": false,
+        "image_url": "https://www.flickr.com/photos/3059349393/3331435191/in/photostream/",
+        "image_credit": "Flickr (Creative Commons)",
+        "image_path": "./images/discover/market.webp"
+      },
+      {
+        "name": "Tomb of Askia",
+        "type": "Historical/Architectural",
+        "description": "Built in 1495 by Askia Mohammad I, this mud-brick tomb reflects Songhai Empire power and Islamic tradition.",
+        "unesco_world_heritage": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Askia.jpg",
+        "image_credit": "Wikimedia Commons",
+        "image_path": "./images/discover/askia.webp"
+      },
+      {
+        "name": "The Sahara Desert",
+        "type": "Natural",
+        "description": "Dunes and camel treks near Timbuktu.",
+        "unesco_world_heritage": false,
+        "image_url": "https://waybird.imgix.net/regions/kodak_images/000/000/356/original/shutterstock_1095226970.jpg?w=1420&h=946&crop=center%20center&fit=min&dpr=1&q=50&auto=format",
+        "image_credit": "Waybird (Creative Commons)",
+        "image_path": "./images/discover/sahara.webp"
+      }
+    ],
+    "metadata": {
+      "location": "Timbuktu, Mali",
+      "significance": "Historic center of trade and Islamic scholarship",
+      "note": "Images are sourced from public domains or Creative Commons licenses. Verify usage rights for commercial projects."
+    }
+  }

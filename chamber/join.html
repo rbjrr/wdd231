@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rui Barbosa">
+    <meta name="description" content="This website will serve as a resource hub for businesses in the city of Timbuktu">
+    <title>Timbuktu Chamber of Commerce Business Directory</title>
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="timbuktu.webp">
+    <meta property="og:url" content="https://bordersoftime.github.io/wdd231/chamber/index.html">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="scripts/script_join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Timbuktu Chamber of Commerce Logo">
+            </div>
+            <div class="logo-text">
+                <h1>Timbuktu Chamber of Commerce Business Directory</h1>
+            </div>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active-page">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle"></div>
+        <div class="mobile-menu" id="mobileMenu">≡</div>
+    </header>
+    <main>
+        <h1>Membership Application Form</h1>
+        <div class="main-container">
+            <section>
+                <form action="thankyou.html" method="get">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" autocomplete="given-name" required>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" autocomplete="family-name" required>
+                    <label for="title">Applicant's Title in Organization:</label>
+                    <input type="text" id="title" name="title" autocomplete="organization-title"
+                        pattern="^[A-Za-z\- ]{7,}$" required>
+                    <span class="hint">Please enter your organizational title (minimum 7 characters, only letters,
+                        hyphens and spaces allowed)</span>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="^\+?[0-9]{1,4}?[0-9]{7,14}$" autocomplete="tel"
+                        required>
+                    <span class="hint">Please enter your phone number (including country code)</span>
+                    <label for="business">Business Name:</label>
+                    <input type="text" id="business" name="business" autocomplete="organization" required>
+                    <fieldset>
+                        <legend>Membership Level:</legend>
+                        <div class="radio-option">
+                            <input type="radio" id="np-membership" name="membership" value="np" required>
+                            <label for="np-membership">NP Membership</label>
+                            <span class="description">For non-profit organizations (no fee)</span>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="bronze-membership" name="membership" value="bronze">
+                            <label for="bronze-membership">Bronze Membership</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="silver-membership" name="membership" value="silver">
+                            <label for="silver-membership">Silver Membership</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="gold-membership" name="membership" value="gold">
+                            <label for="gold-membership">Gold Membership</label>
+                        </div>
+                    </fieldset>
+                    <label for="business-description">Business/Organization Description:</label>
+                    <textarea id="business-description" name="business-description" rows="5" autocomplete="off"
+                        required></textarea>
+                    <span class="hint">Please provide a brief description of your business or organization</span>
+                    <input type="hidden" id="timestamp" name="timestamp">
+                    <button type="submit">Submit Application</button>
+                </form>
+            </section>
+            <section class="membership-levels">
+                <h2>Membership Levels</h2>
+                <div class="membership-option">
+                    <button class="membership-button">Gold Membership Level</button>
+                    <button class="learn-more" data-modal="gold-modal">Learn More</button>
+                </div>
+                <div class="membership-option">
+                    <button class="membership-button">Silver Membership Level</button>
+                    <button class="learn-more" data-modal="silver-modal">Learn More</button>
+                </div>
+                <div class="membership-option">
+                    <button class="membership-button">Bronze Membership Level</button>
+                    <button class="learn-more" data-modal="bronze-modal">Learn More</button>
+                </div>
+                <div class="membership-option">
+                    <button class="membership-button">Non Profit Membership Level</button>
+                    <button class="learn-more" data-modal="np-modal">Learn More</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <dialog id="gold-modal" class="membership-dialog">
+        <div class="dialog-content">
+            <h2>Gold Membership</h2>
+            <p>$1000/year</p>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>Featured placement on the chamber's homepage</li>
+                <li>Dedicated spotlight section in monthly newsletter</li>
+                <li>Priority booth location at chamber events</li>
+                <li>Complimentary entry to all chamber events</li>
+                <li>Access to exclusive networking sessions</li>
+                <li>Full-page advertisement in annual business directory</li>
+                <li>Direct referrals from chamber staff</li>
+            </ul>
+            <button class="close-dialog">Close</button>
+        </div>
+    </dialog>
+
+    <dialog id="silver-modal" class="membership-dialog">
+        <div class="dialog-content">
+            <h2>Silver Membership</h2>
+            <p>$500/year</p>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>Company listing in chamber's online directory</li>
+                <li>Regular mentions in monthly newsletter</li>
+                <li>Discounted booth rates at chamber events</li>
+                <li>50% discount on chamber event entry fees</li>
+                <li>Half-page advertisement in annual business directory</li>
+                <li>Business promotion on chamber social media</li>
+            </ul>
+            <button class="close-dialog">Close</button>
+        </div>
+    </dialog>
+
+    <dialog id="bronze-modal" class="membership-dialog">
+        <div class="dialog-content">
+            <h2>Bronze Membership</h2>
+            <p>$250/year</p>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>Basic listing in chamber's online directory</li>
+                <li>Invitation to monthly networking events</li>
+                <li>25% discount on chamber event entry fees</li>
+                <li>Quarter-page advertisement in annual business directory</li>
+                <li>Access to chamber resources and local business data</li>
+            </ul>
+            <button class="close-dialog">Close</button>
+        </div>
+    </dialog>
+
+    <dialog id="np-modal" class="membership-dialog">
+        <div class="dialog-content">
+            <h2>Non-Profit Membership</h2>
+            <p>Free</p>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>Basic listing in chamber's online directory</li>
+                <li>Access to networking events</li>
+                <li>Opportunity to collaborate with local businesses</li>
+                <li>Limited access to chamber resources</li>
+                <li>Eligibility for assistance from chamber volunteers</li>
+            </ul>
+            <button class="close-dialog">Close</button>
+        </div>
+    </dialog>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Timbuktu Chamber of Commerce</h3>
+                <p>10 Rue De La Paix</p>
+                <p>Timbuktu, Mali 999</p>
+                <p><a href="mailto:info@timbuktucc.org">info@timbuktucc.org</a></p>
+                <p>(223) 555-2300</p>
+            </div>
+            <div class="footer-center">
+                <a href="#"><img src="images/youtube.webp" alt="YouTube"></a>
+                <a href="#"><img src="images/x.webp" alt="X"></a>
+                <a href="#"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+            </div>
+            <div class="footer-right">
+                <p>WDD231 Class Project</p>
+                <p>Rui Barbosa</p>
+                <p>&copy; <span id="year"></span> Timbuktu Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

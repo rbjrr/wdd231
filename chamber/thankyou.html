@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rui Barbosa">
+    <meta name="description" content="Thank you for submitting your membership application to the Timbuktu Chamber of Commerce">
+    <title>Thank You - Timbuktu Chamber of Commerce</title>
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="timbuktu.webp">
+    <meta property="og:url" content="https://bordersoftime.github.io/wdd231/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="scripts/script_join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Timbuktu Chamber of Commerce Logo" loading="lazy">
+            </div>
+            <div class="logo-text">
+                <h1>Timbuktu Chamber of Commerce Business Directory</h1>
+            </div>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active-page">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle"></div>
+        <div class="mobile-menu" id="mobileMenu">≡</div>
+    </header>
+    <main>
+        <div class="thank-you-container">
+            <h1>Thank You for Your Application!</h1>
+            <p>We have received your membership application to the Timbuktu Chamber of Commerce.</p>
+            <p>Our team will review your application and contact you within 3-5 business days.</p>
+            <p>In the meantime, feel free to explore more about our chamber and the benefits of membership.</p>
+            
+            <div class="submitted-info">
+                <h2>Your Submitted Information</h2>
+                <div class="info-container">
+                    <p><strong>First Name:</strong> <span id="firstName"></span></p>
+                    <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+                    <p><strong>Email:</strong> <span id="email"></span></p>
+                    <p><strong>Mobile Number:</strong> <span id="mobileNumber"></span></p>
+                    <p><strong>Business Name:</strong> <span id="businessName"></span></p>
+                    <p><strong>Date Submitted:</strong> <span id="dateSubmitted"></span></p>
+                </div>
+            </div>
+            
+            <div class="thank-you-buttons">
+                <a href="index.html" class="return-home">Return to Homepage</a>
+                <a href="directory.html" class="browse-directory">Browse Business Directory</a>
+                <a href="join.html" class="join-again">Join with Another Business!</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Timbuktu Chamber of Commerce</h3>
+                <p>10 Rue De La Paix</p>
+                <p>Timbuktu, Mali 999</p>
+                <p><a href="mailto:info@timbuktucc.org">info@timbuktucc.org</a></p>
+                <p>(223) 555-2300</p>
+            </div>
+            <div class="footer-center">
+                <a href="#"><img src="images/youtube.webp" alt="YouTube" loading="lazy"></a>
+                <a href="#"><img src="images/x.webp" alt="X" loading="lazy"></a>
+                <a href="#"><img src="images/linkedin.webp" alt="LinkedIn" loading="lazy"></a>
+            </div>
+            <div class="footer-right">
+                <p>WDD231 Class Project</p>
+                <p>Rui Barbosa</p>
+                <p>&copy; <span id="year"></span> Timbuktu Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

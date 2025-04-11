@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rui Barbosa">
+    <meta name="description" content="This website will serve as a resource hub for businesses in the city of Timbuktu">
+    <title>Discover - Timbuktu Chamber of Commerce</title>
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="timbuktu.webp">
+    <meta property="og:url" content="https://bordersoftime/wdd231/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="scripts/script_discover.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Timbuktu Chamber of Commerce Logo" loading="lazy">
+            </div>
+            <div class="logo-text">
+                <h1>Timbuktu Chamber of Commerce Business Directory</h1>
+            </div>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html" class="active-page">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle"></div>
+        <div class="mobile-menu" id="mobileMenu">≡</div>
+    </header>
+    <main>
+        <h1>Areas of Interest</h1>
+        <div id="last-visit-message" class="visit-message"></div>
+        <section id="areas" class="template_grid">
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Timbuktu Chamber of Commerce</h3>
+                <p>10 Rue De La Paix</p>
+                <p>Timbuktu, Mali 999</p>
+                <p><a href="mailto:info@timbuktucc.org">info@timbuktucc.org</a></p>
+                <p>(223) 555-2300</p>
+            </div>
+            <div class="footer-center">
+                <a href="#"><img src="images/youtube.webp" alt="YouTube" loading="lazy"></a>
+                <a href="#"><img src="images/x.webp" alt="X" loading="lazy"></a>
+                <a href="#"><img src="images/linkedin.webp" alt="LinkedIn" loading="lazy"></a>
+            </div>
+            <div class="footer-right">
+                <p>WDD231 Class Project</p>
+                <p>Rui Barbosa</p>
+                <p>&copy; <span id="year"></span> Timbuktu Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,328 @@
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+form {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.hint {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 0.5rem;
+    color: var(--primary-color);
+}
+
+.radio-option {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.radio-option input[type="radio"] {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.radio-option label {
+    display: inline;
+    margin: 0;
+}
+
+.description {
+    display: block;
+    margin-left: 1.7rem;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    font-style: italic;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--background-color);
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: #e74c3c;
+}
+
+input:valid,
+textarea:valid {
+    border-color: #2ecc71;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.membership-levels {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem;  
+}
+
+.membership-levels h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.membership-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    opacity: 0;
+    background-color: #f2f2f5;
+    border-radius:8px;
+    border-left: 4px solid var(--primary-color);
+    animation: fadeSlideIn 0.8s ease forwards;
+}
+
+.membership-option:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.membership-option:nth-child(2) {
+    animation-delay: 0.8s;
+}
+
+.membership-option:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.membership-option:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.membership-button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    width: 80%;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.membership-button:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.learn-more {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.membership-dialog {
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.membership-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dialog-content {
+    padding: 2rem;
+    position: relative;
+}
+
+.membership-dialog h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+.membership-dialog p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.membership-dialog h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.membership-dialog ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.membership-dialog ul li {
+    margin-bottom: 0.5rem;
+}
+
+.close-dialog {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block;
+    margin-left: auto;
+}
+
+.close-dialog:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    
+    form {
+        padding: 1rem;
+    }
+    
+    fieldset {
+        padding: 0.8rem;
+    }
+    
+    .radio-option {
+        margin-bottom: 0.8rem;
+    }
+    
+    button[type="submit"] {
+        padding: 0.7rem 1.2rem;
+    }
+
+    .membership-button {
+        padding: 0.8rem 1.5rem;
+    }
+
+    .learn-more {
+        padding: 0.4rem 0.8rem;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+    
+    .membership-dialog {
+        width: 95%;
+    }
+    
+    .dialog-content {
+        padding: 1rem;
+    }
+    
+    .membership-dialog h2 {
+        font-size: 1.3rem;
+    }
+    
+    .membership-dialog p {
+        font-size: 1rem;
+    }
+}

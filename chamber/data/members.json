@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Sahara Tech Solutions",
+        "address": "101 Desert Rd, Timbuktu",
+        "phone": "555-1010",
+        "website": "https://saharatech.com",
+        "email": "info@saharatech.com",
+        "image": "saharatech.svg",
+        "membership": 3,
+        "businessTag": "Technology"
+    },
+    {
+        "name": "Mali Traders",
+        "address": "202 Market St, Timbuktu",
+        "phone": "555-2020",
+        "website": "https://malitraders.com",
+        "email": "contact@malitraders.com",
+        "image": "malitraders.svg",
+        "membership": 2,
+        "businessTag": "Retail"
+    },
+    {
+        "name": "Golden Dunes Hotel",
+        "address": "303 Oasis Ave, Timbuktu",
+        "phone": "555-3030",
+        "website": "https://goldenduneshotel.com",
+        "email": "reservations@goldenduneshotel.com",
+        "image": "goldenduneshotel.svg",
+        "membership": 1,
+        "businessTag": "Hospitality"
+    },
+    {
+        "name": "Timbuktu Artisans",
+        "address": "404 Heritage St, Timbuktu",
+        "phone": "555-4040",
+        "website": "https://timbuktuartisans.com",
+        "email": "sales@timbuktuartisans.com",
+        "image": "timbuktuartisans.svg",
+        "membership": 3,
+        "businessTag": "Crafts"
+    },
+    {
+        "name": "Niger River Tours",
+        "address": "505 Riverside Ln, Timbuktu",
+        "phone": "555-5050",
+        "website": "https://nigerrivertours.com",
+        "email": "bookings@nigerrivertours.com",
+        "image": "nigerrivertours.svg",
+        "membership": 2,
+        "businessTag": "Tourism"
+    },
+    {
+        "name": "Oasis Café",
+        "address": "606 Palm St, Timbuktu",
+        "phone": "555-6060",
+        "website": "https://oasiscafetimbuktu.com",
+        "email": "info@oasiscafetimbuktu.com",
+        "image": "oasiscafe.svg",
+        "membership": 1,
+        "businessTag": "Food & Dining"
+    },
+    {
+        "name": "Sankore Bookstore",
+        "address": "707 Knowledge Rd, Timbuktu",
+        "phone": "555-7070",
+        "website": "https://sankorebookstore.com",
+        "email": "books@sankorebookstore.com",
+        "image": "sankorebookstore.svg",
+        "membership": 3,
+        "businessTag": "Books & Education"
+    }
+]
