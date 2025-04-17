@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --ocean-blue: #0d52a5;
+    --aqua-blue: #55b7de;
+    --sand: #f8d7a7;
+    --sunset-orange: #ff8c00;
+    --background: #f5f5f5;
+    --white: #ffffff;
+    --dark-gray: #333333;
+    --light-gray: #e0e0e0;
+    --text-dark: #333333;
+    --text-medium: #666666;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.navbar {
+    background-color: #0d52a5;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .nav-links a.active {
+    background-color: var(--sunset-orange);
+    color: #000000;
+    font-weight: bold;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.hamburger-menu.active span:first-child {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active span:last-child {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.error-message {
+    color: #cc0000;
+    text-align: center;
+    padding: 1rem;
+}
+
+.global-error {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffeeee;
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+}
+
+.button-primary {
+    background-color: var(--ocean-blue);
+    color: var(--white);
+    font-weight: bold;
+}
+
+.button-secondary {
+    background-color: var(--sunset-orange);
+    color: #000000;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+        z-index: 1001;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: #0d52a5;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.3s ease;
+        z-index: 1000;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    
+    .nav-links.active {
+        right: 0;
+    }
+    
+    .nav-links a {
+        font-size: 1.2rem;
+    }
+}

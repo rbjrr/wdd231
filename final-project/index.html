@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf Silver - Catch Your Perfect Wave</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/index.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="images/logo_resized.webp" loading="lazy" alt="logo"></div>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="surf-spots.html">Surf Spots</a>
+            <a href="profile.html">Profile</a>
+        </div>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Catch Your Perfect Wave</h1>
+                <p>Real-time wave conditions and forecasts for surfers</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Search for your favorite surf spot...">
+                    <button>🔍</button>
+                </div>
+                <div class="temp-unit-toggle">
+                    <span>°F</span>
+                    <label class="switch">
+                        <input type="checkbox" id="temp-unit-switch">
+                        <span class="slider round"></span>
+                    </label>
+                    <span>°C</span>
+                </div>
+            </div>
+            <div class="wave"></div>
+        </section>
+
+        <section class="today-conditions">
+            <h2>Today's Surf Conditions</h2>
+            <div class="conditions-grid">
+                <div class="condition-card" id="wave-height-card">
+                    <div class="condition-title">Wave Height</div>
+                    <div class="condition-value" id="wave-height-value">Loading...</div>
+                    <div class="wave-icon">〰️</div>
+                </div>
+                <div class="condition-card" id="wind-card">
+                    <div class="condition-title">Wind</div>
+                    <div class="condition-value" id="wind-value">Loading...</div>
+                    <div class="condition-details" id="wind-details">Loading...</div>
+                </div>
+                <div class="condition-card" id="tide-card">
+                    <div class="condition-title">Tide</div>
+                    <div class="condition-value" id="tide-value">Loading...</div>
+                    <div class="condition-details" id="tide-details">Loading...</div>
+                </div>
+                <div class="condition-card weather-card" id="weather-card">
+                    <div class="condition-title">Weather</div>
+                    <div class="weather-icon" id="weather-icon">Loading...</div>
+                    <div class="condition-value" id="weather-value">Loading...</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="forecast">
+            <h2>7-Day Forecast</h2>
+            <div class="forecast-grid" id="forecast-container">
+                <div class="loading-indicator">Loading forecast data...</div>
+            </div>
+        </section>
+
+
+        <section class="popular-spots">
+            <h2>Popular Surf Spots</h2>
+            <div class="spots-grid" id="spots-container">
+
+                <div class="loading-indicator">Loading popular spots...</div>
+            </div>
+        </section>
+
+
+        <section class="events">
+            <h2>Upcoming Surf Events</h2>
+            <div id="events-container">
+                <div class="loading-indicator">Loading upcoming events...</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Surf Silver • <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a> • <a href="#">Contact
+                Us</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,339 @@
+{
+    "surfSpots": [
+      {
+        "id": 1,
+        "name": "Pipeline",
+        "location": {
+          "beach": "Banzai Pipeline",
+          "region": "North Shore",
+          "city": "Haleiwa",
+          "state": "Hawaii",
+          "country": "USA",
+          "coordinates": {
+            "latitude": 21.6654,
+            "longitude": -158.0522
+          }
+        },
+        "difficulty": "Expert",
+        "waveType": "Reef break",
+        "bestSeason": "Winter (November-February)",
+        "description": "One of the most famous and dangerous waves in the world, featuring a hollow right-hand reef break over shallow coral.",
+        "imgUrl": "pipeline.webp",
+        "avgWaveHeight": "6-12ft",
+        "maxWaveHeight": "25ft",
+        "surfConsistency": 4.8,
+        "crowdLevel": 5
+      },
+      {
+        "id": 2,
+        "name": "Supertubes",
+        "location": {
+          "beach": "Jeffreys Bay",
+          "region": "Eastern Cape",
+          "city": "Jeffreys Bay",
+          "state": null,
+          "country": "South Africa",
+          "coordinates": {
+            "latitude": -34.0487,
+            "longitude": 24.9308
+          }
+        },
+        "difficulty": "Advanced",
+        "waveType": "Point break",
+        "bestSeason": "Winter (June-August)",
+        "description": "World-famous right-hand point break producing long, fast barrels over a rock bottom, hosting the annual J-Bay Open WSL event.",
+        "imgUrl": "supertubes.webp",
+        "avgWaveHeight": "4-8ft",
+        "maxWaveHeight": "15ft",
+        "surfConsistency": 4.5,
+        "crowdLevel": 4.7
+      },
+      {
+        "id": 3,
+        "name": "Uluwatu",
+        "location": {
+          "beach": "Uluwatu",
+          "region": "Bukit Peninsula",
+          "city": "Pecatu",
+          "state": "Bali",
+          "country": "Indonesia",
+          "coordinates": {
+            "latitude": -8.8295,
+            "longitude": 115.0869
+          }
+        },
+        "difficulty": "Intermediate to Advanced",
+        "waveType": "Reef break",
+        "bestSeason": "Dry Season (May-September)",
+        "description": "Iconic left-hand reef break with multiple sections offering hollow barrels and high-performance walls under a stunning cliff temple.",
+        "imgUrl": "uluwatu.webp",
+        "avgWaveHeight": "3-8ft",
+        "maxWaveHeight": "15ft",
+        "surfConsistency": 4.7,
+        "crowdLevel": 4.5
+      },
+      {
+        "id": 4,
+        "name": "Teahupo'o",
+        "location": {
+          "beach": "Teahupo'o",
+          "region": "Tahiti",
+          "city": "Teahupo'o",
+          "state": null,
+          "country": "French Polynesia",
+          "coordinates": {
+            "latitude": -17.8392,
+            "longitude": -149.2669
+          }
+        },
+        "difficulty": "Expert",
+        "waveType": "Reef break",
+        "bestSeason": "Winter (May-August)",
+        "description": "Arguably the heaviest wave on the planet, known for its thick, square barrels breaking over an extremely shallow coral reef.",
+        "imgUrl": "teahupoo.webp",
+        "avgWaveHeight": "6-10ft",
+        "maxWaveHeight": "25ft+",
+        "surfConsistency": 4.2,
+        "crowdLevel": 3.8
+      },
+      {
+        "id": 5,
+        "name": "Bells Beach",
+        "location": {
+          "beach": "Bells Beach",
+          "region": "Victoria",
+          "city": "Torquay",
+          "state": "Victoria",
+          "country": "Australia",
+          "coordinates": {
+            "latitude": -38.3704,
+            "longitude": 144.2762
+          }
+        },
+        "difficulty": "Intermediate to Advanced",
+        "waveType": "Point break",
+        "bestSeason": "Autumn/Winter (March-August)",
+        "description": "Historic right-hand point break and home to the world's longest-running surf competition, the Rip Curl Pro.",
+        "imgUrl": "bells-beach.webp",
+        "avgWaveHeight": "3-6ft",
+        "maxWaveHeight": "15ft",
+        "surfConsistency": 3.8,
+        "crowdLevel": 3.5
+      },
+      {
+        "id": 6,
+        "name": "Cloudbreak",
+        "location": {
+          "beach": "Tavarua Island",
+          "region": "Mamanuca Islands",
+          "city": null,
+          "state": null,
+          "country": "Fiji",
+          "coordinates": {
+            "latitude": -17.8644,
+            "longitude": 177.1997
+          }
+        },
+        "difficulty": "Expert",
+        "waveType": "Reef break",
+        "bestSeason": "Winter (April-October)",
+        "description": "World-class left-hand reef break located 1 mile offshore, offering long, powerful barrels over a shallow coral reef.",
+        "imgUrl": "cloudbreak.webp",
+        "avgWaveHeight": "4-8ft",
+        "maxWaveHeight": "20ft+",
+        "surfConsistency": 4.3,
+        "crowdLevel": 3.0
+      },
+      {
+        "id": 7,
+        "name": "Mavericks",
+        "location": {
+          "beach": "Pillar Point",
+          "region": "Northern California",
+          "city": "Half Moon Bay",
+          "state": "California",
+          "country": "USA",
+          "coordinates": {
+            "latitude": 37.4954,
+            "longitude": -122.4996
+          }
+        },
+        "difficulty": "Expert",
+        "waveType": "Big wave reef break",
+        "bestSeason": "Winter (November-March)",
+        "description": "Legendary big wave spot with massive, cold-water right-handers breaking half a mile offshore over treacherous rocks.",
+        "imgUrl": "mavericks.webp",
+        "avgWaveHeight": "10-25ft",
+        "maxWaveHeight": "60ft+",
+        "surfConsistency": 2.5,
+        "crowdLevel": 2.0
+      },
+      {
+        "id": 8,
+        "name": "Hossegor",
+        "location": {
+          "beach": "La Gravière",
+          "region": "Les Landes",
+          "city": "Hossegor",
+          "state": null,
+          "country": "France",
+          "coordinates": {
+            "latitude": 43.6614,
+            "longitude": -1.4458
+          }
+        },
+        "difficulty": "Advanced",
+        "waveType": "Beach break",
+        "bestSeason": "Autumn (September-November)",
+        "description": "Europe's premier beach break, offering powerful, hollow barrels over a shifting sandbar bottom.",
+        "imgUrl": "hossegor.webp",
+        "avgWaveHeight": "3-6ft",
+        "maxWaveHeight": "12ft",
+        "surfConsistency": 3.5,
+        "crowdLevel": 4.0
+      },
+      {
+        "id": 9,
+        "name": "Nazaré",
+        "location": {
+          "beach": "Praia do Norte",
+          "region": "Central Portugal",
+          "city": "Nazaré",
+          "state": null,
+          "country": "Portugal",
+          "coordinates": {
+            "latitude": 39.6079,
+            "longitude": -9.0866
+          }
+        },
+        "difficulty": "Expert (Big Wave)",
+        "waveType": "Canyon-enhanced beach break",
+        "bestSeason": "Winter (October-March)",
+        "description": "Home to the biggest rideable waves on Earth, created by the unique Nazaré Canyon that funnels and amplifies Atlantic swells.",
+        "imgUrl": "nazare.webp",
+        "avgWaveHeight": "10-40ft",
+        "maxWaveHeight": "100ft+",
+        "surfConsistency": 2.8,
+        "crowdLevel": 2.5
+      },
+      {
+        "id": 10,
+        "name": "Snapper Rocks",
+        "location": {
+          "beach": "Snapper Rocks",
+          "region": "Gold Coast",
+          "city": "Coolangatta",
+          "state": "Queensland",
+          "country": "Australia",
+          "coordinates": {
+            "latitude": -28.1634,
+            "longitude": 153.5504
+          }
+        },
+        "difficulty": "Intermediate to Advanced",
+        "waveType": "Point break",
+        "bestSeason": "Summer/Autumn (January-April)",
+        "description": "The first point of the famous Superbank, providing incredibly long, machine-like right-hand barrels when conditions align.",
+        "imgUrl": "snapper-rocks.webp",
+        "avgWaveHeight": "2-6ft",
+        "maxWaveHeight": "12ft",
+        "surfConsistency": 4.5,
+        "crowdLevel": 4.8
+      },
+      {
+        "id": 11,
+        "name": "Skeleton Bay",
+        "location": {
+          "beach": "Donkey Bay",
+          "region": "Namib Desert",
+          "city": null,
+          "state": null,
+          "country": "Namibia",
+          "coordinates": {
+            "latitude": -22.6817,
+            "longitude": 14.5272
+          }
+        },
+        "difficulty": "Advanced",
+        "waveType": "Point break",
+        "bestSeason": "Winter (June-August)",
+        "description": "Possibly the longest left-hand point break in the world, offering rides of up to 2km along a sand-bottom desert coastline.",
+        "imgUrl": "skeleton-bay.webp",
+        "avgWaveHeight": "4-8ft",
+        "maxWaveHeight": "12ft",
+        "surfConsistency": 3.0,
+        "crowdLevel": 2.8
+      },
+      {
+        "id": 12,
+        "name": "Pavones",
+        "location": {
+          "beach": "Pavones",
+          "region": "South Pacific",
+          "city": "Pavones",
+          "state": "Puntarenas",
+          "country": "Costa Rica",
+          "coordinates": {
+            "latitude": 8.4103,
+            "longitude": -83.1223
+          }
+        },
+        "difficulty": "Intermediate to Advanced",
+        "waveType": "Point break",
+        "bestSeason": "Wet Season (May-November)",
+        "description": "One of the longest left point breaks in the world, offering rides of up to 800 meters through multiple sections of pristine rainforest coastline.",
+        "imgUrl": "pavones.webp",
+        "avgWaveHeight": "3-6ft",
+        "maxWaveHeight": "12ft",
+        "surfConsistency": 3.2,
+        "crowdLevel": 3.0
+      },
+      {
+        "id": 13,
+        "name": "Malibu",
+        "location": {
+          "beach": "Surfrider Beach",
+          "region": "Southern California",
+          "city": "Malibu",
+          "state": "California",
+          "country": "USA",
+          "coordinates": {
+            "latitude": 34.0367,
+            "longitude": -118.6780
+          }
+        },
+        "difficulty": "Beginner to Intermediate",
+        "waveType": "Point break",
+        "bestSeason": "Summer (June-September)",
+        "description": "Iconic and historic right-hand point break known for its perfect, peeling waves. Famous for its longboarding heritage and appearance in numerous surf films and culture.",
+        "imgUrl": "malibu.webp",
+        "avgWaveHeight": "2-4ft",
+        "maxWaveHeight": "8ft",
+        "surfConsistency": 4.2,
+        "crowdLevel": 4.9
+      },
+      {
+        "id": 14,
+        "name": "Bondi Beach",
+        "location": {
+          "beach": "Bondi Beach",
+          "region": "New South Wales",
+          "city": "Sydney",
+          "state": "New South Wales",
+          "country": "Australia",
+          "coordinates": {
+            "latitude": -33.8915,
+            "longitude": 151.2767
+          }
+        },
+        "difficulty": "Beginner to Intermediate",
+        "waveType": "Beach break",
+        "bestSeason": "Year-round (best in autumn/spring)",
+        "description": "Australia's most famous beach and a vibrant surf culture hub. Offers consistent beach break waves suitable for all levels, with several different breaks along the crescent-shaped bay.",
+        "imgUrl": "bondi-beach.webp",
+        "avgWaveHeight": "2-5ft",
+        "surfConsistency": 3.8,
+        "crowdLevel": 4.8
+      }
+    ]
+  }
