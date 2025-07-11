@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rui Barbosa">
+    <meta name="description" content="This website will serve as a resource hub for businesses in the city of Timbuktu">
+    <title>Timbuktu Chamber of Commerce</title>
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="timbuktu.webp">
+    <meta property="og:url" content="https://bordersoftime.github.io/wdd231/chamber/index.html">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preload" href="images/Market-Timbuktu-Mali_7_76.webp" as="image" type="image/webp">
+    <script src="scripts/scripts_home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <div class="logo-text">
+                <h1>Timbuktu Chamber of Commerce</h1>
+
+            </div>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html" class="active-page">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle"></div>
+        <div class="mobile-menu" id="mobileMenu">≡</div>
+    </header>
+    <div class="hero-container">
+        <a href="#" class="ticket-button">Keynote Tickets</a>
+    </div>
+    <main>
+        <h2>Home</h2>
+        <section>
+            <div class="info-grid">
+                <div class="events">
+                    <h3 class="section-header">Events</h3>
+                    <div class="section-content">
+                        <div class="event">
+                            <h4>Business Expo</h4>
+                            <p>Join us for our annual Business Expo. This year's theme is "Innovation in Business".</p>
+                            <p>When: March 15, 2026</p>
+                            <p>Where: Timbuktu Convention Center</p>
+                        </div>
+                        <div class="event">
+                            <h4>Networking Mixer</h4>
+                            <p>Meet and greet with other business owners in the area. Bring your business cards!</p>
+                            <p>When: April 20, 2026</p>
+                            <p>Where: Timbuktu Chamber of Commerce</p>
+                        </div>
+                        <div class="event">
+                            <h4>Keynote Speaker</h4>
+                            <p>Join us for a special keynote speaker event. This year's speaker is Dr. Wise.</p>
+                            <p>When: May 25, 2026</p>
+                            <p>Where: Timbuktu Convention Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="current-weather">
+                    <h3 class="section-header">Current Weather</h3>
+                    <div class="section-content">
+                        <div class="weather-now" id="weatherNow">
+                        </div>
+                    </div>
+                </div>
+                <div class=weather-forecast>
+                    <h3 class="section-header">Weather Forecast</h3>
+                    <div class="section-content">
+                        <div id="weatherForecast">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="business-cards">     
+                <div id="memberCards">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Timbuktu Chamber of Commerce</h3>
+                <p>10 Rue De La Paix</p>
+                <p>Timbuktu, Mali 999</p>
+                <p><a href="mailto:info@timbuktucc.org">info@timbuktucc.org</a></p>
+                <p>(223) 555-2300</p>
+            </div>
+            <div class="footer-center">
+                <a href="#"><img src="images/youtube.webp" alt="YouTube"></a>
+                <a href="#"><img src="images/x.webp" alt="X"></a>
+                <a href="#"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+            </div>
+            <div class="footer-right">
+                <p>WDD231 Class Project</p>
+                <p>Rui Barbosa</p>
+                <p>&copy; <span id="year"></span> Timbuktu Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
